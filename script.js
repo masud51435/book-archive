@@ -42,8 +42,8 @@ const displaySearchResult = books => {
          <div class="card-body">
             <h4 class="card-title">${book.title}</h4>
             <h6 class="card-title">Author: ${book.author_name}</h6>
-            <p class="card-text">first publish: ${book.first_publish_year}.</p>
-            <p class="card-text">publisher: ${book.publisher}.</p>
+            <h6 class="card-title">publish: ${book.first_publish_year}.</h6>
+            <h6 class="card-title">publisher: ${book.publisher}.</h6>
          </div>
        </div>
      `;
